@@ -1,0 +1,7 @@
+Build and Run Application
+
+Create a new Android project from the Empty Template.
+● Add logging statements for various log levels in onCreate() in the main activity.
+● Create an emulator for a device, targeting any version of Android you like, and run the app.
+● Use filtering in Logcat to find your log statements and adjust the levels to only display debug
+or error logging statements.
