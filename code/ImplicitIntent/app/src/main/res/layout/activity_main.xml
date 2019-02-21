@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:padding="8dp"
+  tools:context=".MainActivity">
+
+
+  <EditText
+    android:id="@+id/urlEditText"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:ems="10"
+    android:hint="@string/url_edittext_hint"
+    android:inputType="textUri"
+    android:singleLine="true"
+    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    />
+
+  <Button
+    android:id="@+id/openURLButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:onClick="openWebSite"
+    android:text="@string/open_url_button_label"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/urlEditText"/>
+
+  <EditText
+    android:id="@+id/locationEditText"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="32dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:ems="10"
+    android:hint="@string/location_edittext_hint"
+    android:inputType="textPostalAddress"
+    android:singleLine="true"
+    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/openURLButton"/>
+
+  <Button
+    android:id="@+id/openLocationButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:onClick="openLocation"
+    android:text="@string/open_location_button_label"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/locationEditText"/>
+
+  <EditText
+    android:id="@+id/shareDataEditText"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="32dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:ems="10"
+    android:hint="@string/share_data_edittext"
+    android:inputType="textMultiLine"
+    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/openLocationButton"/>
+
+  <Button
+    android:id="@+id/shareDataButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:onClick="shareData"
+    android:text="@string/share_data_button_label"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/shareDataEditText"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

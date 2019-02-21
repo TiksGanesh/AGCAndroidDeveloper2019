@@ -1,0 +1,6 @@
+Homework
+Build and run an app
+Open the ImplicitIntents app that you created.
+1. Add another button at the bottom of the screen.
+2. When the Button is clicked, launch a camera app to take a picture. (You don't need to return
+the picture to the original app.)

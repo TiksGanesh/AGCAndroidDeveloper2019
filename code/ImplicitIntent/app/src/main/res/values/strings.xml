@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">ImplicitIntent</string>
+  <string name="url_edittext_hint">Enter Web URL</string>
+  <string name="open_url_button_label">Open Website</string>
+  <string name="location_edittext_hint">Enter location</string>
+  <string name="open_location_button_label">Open Location</string>
+  <string name="share_data_edittext">Share Data</string>
+  <string name="share_data_button_label">Share Text</string>
+</resources>
