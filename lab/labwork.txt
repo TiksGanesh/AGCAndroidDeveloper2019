@@ -1,0 +1,6 @@
+Homework
+Build and run an app
+Open the HelloToast app that you created in a previous practical codelab.
+1. Modify the Toast button so that it launches a new Activity to display the word "Hello!" and
+the current count, as shown below.
+2. Change the text on the Toast button to Say Hello.
