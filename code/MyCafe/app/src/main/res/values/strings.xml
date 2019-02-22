@@ -1,0 +1,27 @@
+<resources>
+  <string name="app_name">MyCafe</string>
+  <string name="action_settings">Settings</string>
+  <string name="textview_cafe_menu">Cafe Menu</string>
+  <string name="burger_info">A hamburger, beefburger or burger is a sandwich consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bread roll or bun. The patty may be pan fried, grilled, or flame broiled.</string>
+  <string name="fruit_salad_info">Fruit salad is a dish consisting of various kinds of fruit, sometimes served in a liquid, either in their own juices or a syrup. When served as an appetizer or as a dessert</string>
+  <string name="pancake_info">A pancake is a flat cake, often thin and round, prepared from a starch-based batter that may contain eggs, milk and butter and cooked on a hot surface such as a griddle or frying pan, often frying with oil or butter.</string>
+  <string name="quantity_label">Quantity</string>
+  <string name="button_place_order_label">Place Order</string>
+  <string name="deliver_to_home">Deliver to Home</string>
+  <string name="deliver_to_office">Deliver to Office</string>
+  <string name="other_address">Other Address</string>
+
+  <string-array name="quantity_array">
+    <item>Select Quantity</item>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+    <item>6</item>
+    <item>7</item>
+    <item>8</item>
+    <item>9</item>
+    <item>10</item>
+  </string-array>
+</resources>

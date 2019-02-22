@@ -1,0 +1,5 @@
+HomeWork
+1. Build and Run application. 
+2. As we have learned in previous topic about TwoActivities, create another activity in MyCafe project. 
+3. On Place Order button click, show order summary on another activity.
+4. Order Summary should consist of Menu Item Name, Quantity and Delivery Address Information
