@@ -41,4 +41,4 @@ Change banch to checkout different topcis
   <br>GSON and JSON
   <br>RoboPojo Generator
   <br>Update UI
-  <br> Video Tutorial Playlist:  https://www.youtube.com/watch?v=FvaNJYnTIFc&list=PLOIFaXyy5CgvzyZYfiDYYaIHjl7m8G_wt
+  <br> Video Tutorial Playlist:  https://goo.gl/q2XVTb
