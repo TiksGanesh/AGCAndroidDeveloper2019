@@ -1,0 +1,8 @@
+Android Network Request using Volley, Android (Branch: 6.1. Volley) 
+Singleton Pattern 
+Inherit Application class 
+RequestController 
+GSON and JSON 
+RoboPojo Generator 
+Update UI 
+Video Tutorial Playlist: https://goo.gl/q2XVTb

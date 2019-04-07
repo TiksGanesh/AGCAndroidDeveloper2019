@@ -1,0 +1,7 @@
+Lab
+1. Display all contacts on recyclerview.
+   RecycelerView will display name and contact.
+2. On tap of recyclerview item, it will display navigate to detail activity.
+   Detail activity will display all information coming from Server response.
+   Display Contact User Name on ActionBar/AppBar/ToolBar
+   Display all details remaining using TextView.
