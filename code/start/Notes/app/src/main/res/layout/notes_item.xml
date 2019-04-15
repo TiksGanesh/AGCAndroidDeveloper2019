@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/noteTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:focusable="false"
+        android:maxLines="2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
+        tools:text="Grocery List" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/noteDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:maxLines="4"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/colorSecondaryText"
+        tools:text="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout." />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/noteTimeStamp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:textAlignment="textEnd"
+        android:textColor="@color/colorPrimaryDark"
+        tools:text="21 Mar 2019 08:00 " />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorAccent" />
+
+</LinearLayout>
